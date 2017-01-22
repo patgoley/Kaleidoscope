@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		8E3FA3151E31C9AD003D256B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3141E31C9AD003D256B /* main.swift */; };
+		8E3FA31C1E32D4F3003D256B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA31B1E32D4F3003D256B /* Token.swift */; };
+		8E3FA31E1E32D60C003D256B /* BinaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA31D1E32D60C003D256B /* BinaryOperator.swift */; };
+		8E3FA3201E32D628003D256B /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA31F1E32D628003D256B /* Lexer.swift */; };
+		8E3FA3221E32DCDF003D256B /* UnicodeScalarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3211E32DCDF003D256B /* UnicodeScalarExtensions.swift */; };
+		8E3FA3241E346A74003D256B /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3231E346A74003D256B /* Keyword.swift */; };
+		8E3FA3261E3477D2003D256B /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3251E3477D2003D256B /* Function.swift */; };
+		8E3FA3281E347852003D256B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3271E347852003D256B /* Expression.swift */; };
+		8E3FA32A1E347927003D256B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3291E347927003D256B /* Parser.swift */; };
+		8E3FA32C1E3481BF003D256B /* TopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA32B1E3481BF003D256B /* TopLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +34,15 @@
 /* Begin PBXFileReference section */
 		8E3FA3111E31C9AD003D256B /* Kaleidoscope */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kaleidoscope; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3FA3141E31C9AD003D256B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8E3FA31B1E32D4F3003D256B /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		8E3FA31D1E32D60C003D256B /* BinaryOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryOperator.swift; sourceTree = "<group>"; };
+		8E3FA31F1E32D628003D256B /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		8E3FA3211E32DCDF003D256B /* UnicodeScalarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeScalarExtensions.swift; sourceTree = "<group>"; };
+		8E3FA3231E346A74003D256B /* Keyword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
+		8E3FA3251E3477D2003D256B /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		8E3FA3271E347852003D256B /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		8E3FA3291E347927003D256B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		8E3FA32B1E3481BF003D256B /* TopLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,15 @@
 			isa = PBXGroup;
 			children = (
 				8E3FA3141E31C9AD003D256B /* main.swift */,
+				8E3FA31B1E32D4F3003D256B /* Token.swift */,
+				8E3FA32B1E3481BF003D256B /* TopLevel.swift */,
+				8E3FA3231E346A74003D256B /* Keyword.swift */,
+				8E3FA3251E3477D2003D256B /* Function.swift */,
+				8E3FA3271E347852003D256B /* Expression.swift */,
+				8E3FA31D1E32D60C003D256B /* BinaryOperator.swift */,
+				8E3FA31F1E32D628003D256B /* Lexer.swift */,
+				8E3FA3291E347927003D256B /* Parser.swift */,
+				8E3FA3211E32DCDF003D256B /* UnicodeScalarExtensions.swift */,
 			);
 			path = Kaleidoscope;
 			sourceTree = "<group>";
@@ -120,7 +147,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3FA3261E3477D2003D256B /* Function.swift in Sources */,
 				8E3FA3151E31C9AD003D256B /* main.swift in Sources */,
+				8E3FA32C1E3481BF003D256B /* TopLevel.swift in Sources */,
+				8E3FA3241E346A74003D256B /* Keyword.swift in Sources */,
+				8E3FA3281E347852003D256B /* Expression.swift in Sources */,
+				8E3FA31C1E32D4F3003D256B /* Token.swift in Sources */,
+				8E3FA32A1E347927003D256B /* Parser.swift in Sources */,
+				8E3FA3201E32D628003D256B /* Lexer.swift in Sources */,
+				8E3FA31E1E32D60C003D256B /* BinaryOperator.swift in Sources */,
+				8E3FA3221E32DCDF003D256B /* UnicodeScalarExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
