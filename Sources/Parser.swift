@@ -31,10 +31,11 @@ class Parser {
             
             var externs = [Prototype]()
             var definitions = [Definition]()
+            var expressions = [Expression]()
             
-            while let tok = currentToken {
+            while let token = currentToken {
                 
-                switch tok {
+                switch token {
                     
                 case .keyword(.extern):
                     externs.append(try parseExtern())
@@ -43,11 +44,21 @@ class Parser {
                     definitions.append(try parseDefinition())
                     
                 default:
-                    throw ParseError.unexpectedToken(tok)
+                    
+                    if let expr = try? parseExpression() {
+                        
+                        try parse(.semicolon)
+                        
+                        expressions.append(expr)
+                        
+                    } else {
+                        
+                        throw ParseError.unexpectedToken(token)
+                    }
                 }
             }
             
-            return TopLevel(externs: externs, definitions: definitions)
+            return TopLevel(externs: externs, definitions: definitions, expressions: expressions)
             
         } catch (let error) {
             

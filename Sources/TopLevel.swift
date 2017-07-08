@@ -14,4 +14,6 @@ struct TopLevel {
     let externs: [Prototype]
     
     let definitions: [Definition]
+    
+    let expressions: [Expression]
 }

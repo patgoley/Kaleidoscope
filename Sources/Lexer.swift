@@ -42,11 +42,16 @@ class Lexer {
     }
     
     func readIdentifier() -> String {
+        
         var str = ""
+        
         while let char = currentChar, char.isAlphanumeric {
+            
             str.unicodeScalars.append(char)
+            
             advanceIndex()
         }
+        
         return str
     }
     

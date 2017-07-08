@@ -10,6 +10,7 @@ import Foundation
 
 
 enum BinaryOperator: UnicodeScalar {
+    
     case plus = "+"
     case minus = "-"
     case times = "*"
