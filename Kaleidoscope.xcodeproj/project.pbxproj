@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E3FA3151E31C9AD003D256B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3141E31C9AD003D256B /* main.swift */; };
-		8E3FA31C1E32D4F3003D256B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA31B1E32D4F3003D256B /* Token.swift */; };
-		8E3FA31E1E32D60C003D256B /* BinaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA31D1E32D60C003D256B /* BinaryOperator.swift */; };
-		8E3FA3201E32D628003D256B /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA31F1E32D628003D256B /* Lexer.swift */; };
-		8E3FA3221E32DCDF003D256B /* UnicodeScalarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3211E32DCDF003D256B /* UnicodeScalarExtensions.swift */; };
-		8E3FA3241E346A74003D256B /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3231E346A74003D256B /* Keyword.swift */; };
-		8E3FA3261E3477D2003D256B /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3251E3477D2003D256B /* Function.swift */; };
-		8E3FA3281E347852003D256B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3271E347852003D256B /* Expression.swift */; };
-		8E3FA32A1E347927003D256B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3291E347927003D256B /* Parser.swift */; };
-		8E3FA32C1E3481BF003D256B /* TopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA32B1E3481BF003D256B /* TopLevel.swift */; };
+		8E3FA3381E35234B003D256B /* BinaryOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA32E1E35234B003D256B /* BinaryOperator.swift */; };
+		8E3FA3391E35234B003D256B /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA32F1E35234B003D256B /* Expression.swift */; };
+		8E3FA33A1E35234B003D256B /* FunctionDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3301E35234B003D256B /* FunctionDefinition.swift */; };
+		8E3FA33B1E35234B003D256B /* Keyword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3311E35234B003D256B /* Keyword.swift */; };
+		8E3FA33C1E35234B003D256B /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3321E35234B003D256B /* Lexer.swift */; };
+		8E3FA33D1E35234B003D256B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3331E35234B003D256B /* main.swift */; };
+		8E3FA33E1E35234B003D256B /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3341E35234B003D256B /* Parser.swift */; };
+		8E3FA33F1E35234B003D256B /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3351E35234B003D256B /* Token.swift */; };
+		8E3FA3401E35234B003D256B /* TopLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3361E35234B003D256B /* TopLevel.swift */; };
+		8E3FA3411E35234B003D256B /* UnicodeScalarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FA3371E35234B003D256B /* UnicodeScalarExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,16 +33,18 @@
 
 /* Begin PBXFileReference section */
 		8E3FA3111E31C9AD003D256B /* Kaleidoscope */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kaleidoscope; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E3FA3141E31C9AD003D256B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8E3FA31B1E32D4F3003D256B /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
-		8E3FA31D1E32D60C003D256B /* BinaryOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryOperator.swift; sourceTree = "<group>"; };
-		8E3FA31F1E32D628003D256B /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
-		8E3FA3211E32DCDF003D256B /* UnicodeScalarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeScalarExtensions.swift; sourceTree = "<group>"; };
-		8E3FA3231E346A74003D256B /* Keyword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
-		8E3FA3251E3477D2003D256B /* Function.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
-		8E3FA3271E347852003D256B /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
-		8E3FA3291E347927003D256B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
-		8E3FA32B1E3481BF003D256B /* TopLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLevel.swift; sourceTree = "<group>"; };
+		8E3FA32E1E35234B003D256B /* BinaryOperator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinaryOperator.swift; sourceTree = "<group>"; };
+		8E3FA32F1E35234B003D256B /* Expression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		8E3FA3301E35234B003D256B /* FunctionDefinition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionDefinition.swift; sourceTree = "<group>"; };
+		8E3FA3311E35234B003D256B /* Keyword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keyword.swift; sourceTree = "<group>"; };
+		8E3FA3321E35234B003D256B /* Lexer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lexer.swift; sourceTree = "<group>"; };
+		8E3FA3331E35234B003D256B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8E3FA3341E35234B003D256B /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		8E3FA3351E35234B003D256B /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		8E3FA3361E35234B003D256B /* TopLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopLevel.swift; sourceTree = "<group>"; };
+		8E3FA3371E35234B003D256B /* UnicodeScalarExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnicodeScalarExtensions.swift; sourceTree = "<group>"; };
+		8E3FA38B1E3525F4003D256B /* libLLVM.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libLLVM.dylib; path = ../../../../usr/local/Cellar/llvm/3.9.1/lib/libLLVM.dylib; sourceTree = "<group>"; };
+		8EBCEB1D1E3527AB00F423B6 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,10 @@
 		8E3FA3081E31C9AD003D256B = {
 			isa = PBXGroup;
 			children = (
-				8E3FA3131E31C9AD003D256B /* Kaleidoscope */,
+				8EBCEB1D1E3527AB00F423B6 /* Package.swift */,
+				8E3FA32D1E35234B003D256B /* Sources */,
 				8E3FA3121E31C9AD003D256B /* Products */,
+				8E3FA38A1E3525F4003D256B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,21 +76,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8E3FA3131E31C9AD003D256B /* Kaleidoscope */ = {
+		8E3FA32D1E35234B003D256B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8E3FA3141E31C9AD003D256B /* main.swift */,
-				8E3FA31B1E32D4F3003D256B /* Token.swift */,
-				8E3FA32B1E3481BF003D256B /* TopLevel.swift */,
-				8E3FA3231E346A74003D256B /* Keyword.swift */,
-				8E3FA3251E3477D2003D256B /* Function.swift */,
-				8E3FA3271E347852003D256B /* Expression.swift */,
-				8E3FA31D1E32D60C003D256B /* BinaryOperator.swift */,
-				8E3FA31F1E32D628003D256B /* Lexer.swift */,
-				8E3FA3291E347927003D256B /* Parser.swift */,
-				8E3FA3211E32DCDF003D256B /* UnicodeScalarExtensions.swift */,
+				8E3FA32E1E35234B003D256B /* BinaryOperator.swift */,
+				8E3FA32F1E35234B003D256B /* Expression.swift */,
+				8E3FA3301E35234B003D256B /* FunctionDefinition.swift */,
+				8E3FA3311E35234B003D256B /* Keyword.swift */,
+				8E3FA3321E35234B003D256B /* Lexer.swift */,
+				8E3FA3331E35234B003D256B /* main.swift */,
+				8E3FA3341E35234B003D256B /* Parser.swift */,
+				8E3FA3351E35234B003D256B /* Token.swift */,
+				8E3FA3361E35234B003D256B /* TopLevel.swift */,
+				8E3FA3371E35234B003D256B /* UnicodeScalarExtensions.swift */,
 			);
-			path = Kaleidoscope;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8E3FA38A1E3525F4003D256B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E3FA38B1E3525F4003D256B /* libLLVM.dylib */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +133,7 @@
 					8E3FA3101E31C9AD003D256B = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = UNAGDAV49G;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -147,16 +160,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3FA3261E3477D2003D256B /* Function.swift in Sources */,
-				8E3FA3151E31C9AD003D256B /* main.swift in Sources */,
-				8E3FA32C1E3481BF003D256B /* TopLevel.swift in Sources */,
-				8E3FA3241E346A74003D256B /* Keyword.swift in Sources */,
-				8E3FA3281E347852003D256B /* Expression.swift in Sources */,
-				8E3FA31C1E32D4F3003D256B /* Token.swift in Sources */,
-				8E3FA32A1E347927003D256B /* Parser.swift in Sources */,
-				8E3FA3201E32D628003D256B /* Lexer.swift in Sources */,
-				8E3FA31E1E32D60C003D256B /* BinaryOperator.swift in Sources */,
-				8E3FA3221E32DCDF003D256B /* UnicodeScalarExtensions.swift in Sources */,
+				8E3FA3381E35234B003D256B /* BinaryOperator.swift in Sources */,
+				8E3FA33A1E35234B003D256B /* FunctionDefinition.swift in Sources */,
+				8E3FA33C1E35234B003D256B /* Lexer.swift in Sources */,
+				8E3FA3401E35234B003D256B /* TopLevel.swift in Sources */,
+				8E3FA3411E35234B003D256B /* UnicodeScalarExtensions.swift in Sources */,
+				8E3FA33B1E35234B003D256B /* Keyword.swift in Sources */,
+				8E3FA33F1E35234B003D256B /* Token.swift in Sources */,
+				8E3FA33D1E35234B003D256B /* main.swift in Sources */,
+				8E3FA33E1E35234B003D256B /* Parser.swift in Sources */,
+				8E3FA3391E35234B003D256B /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +268,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UNAGDAV49G;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/llvm/3.9.1/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/llvm/3.9.1/lib;
+				OTHER_SWIFT_FLAGS = "-DNO_SWIFTPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -264,8 +281,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = UNAGDAV49G;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/llvm/3.9.1/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/llvm/3.9.1/lib;
+				OTHER_SWIFT_FLAGS = "-DNO_SWIFTPM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -288,6 +309,7 @@
 				8E3FA31A1E31C9AD003D256B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
